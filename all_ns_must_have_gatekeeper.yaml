@@ -8,5 +8,14 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Namespace"]
+    excludedNamespaces:
+    - kube-system
+    - kube-public
+    - kube-node-lease
+    - default
+    - gatekeeper-system
+    - kured
+    - mynamespace
+
   parameters:
     labels: ["gatekeeper"]
