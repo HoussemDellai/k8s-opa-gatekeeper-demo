@@ -3,10 +3,10 @@ kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/
 
 # Scenario: Enforce Having A Specific Label In Any New Namespace
 # Deploy the Contraint Template
-kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/demo/basic/templates/k8srequiredlabels_template.yaml
+kubectl apply -f k8srequiredlabels_template.yaml
 
 # Deploy the Constraints
-kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/demo/basic/constraints/all_ns_must_have_gatekeeper.yaml
+kubectl apply -f all_ns_must_have_gatekeeper.yaml
 
 # Deploy a namespace denied by Policy
 kubectl apply -f bad-namespace.yaml

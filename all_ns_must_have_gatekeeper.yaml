@@ -15,7 +15,6 @@ spec:
     - default
     - gatekeeper-system
     - kured
-    - mynamespace
 
   parameters:
     labels: ["gatekeeper"]
