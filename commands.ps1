@@ -2,7 +2,7 @@
 kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/deploy/gatekeeper.yaml
 
 # Scenario: Enforce Having A Specific Label In Any New Namespace
-# Deploy the Template
+# Deploy the Contraint Template
 kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/master/demo/basic/templates/k8srequiredlabels_template.yaml
 
 # Deploy the Constraints
