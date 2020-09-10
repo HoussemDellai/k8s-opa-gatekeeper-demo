@@ -15,6 +15,5 @@ spec:
     - default
     - gatekeeper-system
     - kured
-
   parameters:
     labels: ["gatekeeper"]
