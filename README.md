@@ -8,4 +8,5 @@ This project is demoing OPA Gatekeeper with Kubernetes. Gatekeeper is an opensou
 * Prevent conflicting Ingress objects from being created.
 * Enforcing running containers as non-root.
 
-<src href="https://youtu.be/urvSPmlU69k"><img src="http://i3.ytimg.com/vi/urvSPmlU69k/maxresdefault.jpg" /></src>
+Watch the video here: https://youtu.be/urvSPmlU69k
+<src href="https://youtu.be/urvSPmlU69k"><img src="https://github.com/HoussemDellai/k8s-opa-gatekeeper-demo/blob/master/opa-thumb.jpg?raw=true" /></src>
